@@ -1,0 +1,1 @@
+Script that prints to standard output
