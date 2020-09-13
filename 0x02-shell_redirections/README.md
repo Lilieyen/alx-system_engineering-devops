@@ -1,1 +1,1 @@
-Script that prints to standard output
+Displaying content in /etc/passwd file
