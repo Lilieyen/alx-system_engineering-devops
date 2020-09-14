@@ -1,1 +1,1 @@
-input letters
+input letter characters
