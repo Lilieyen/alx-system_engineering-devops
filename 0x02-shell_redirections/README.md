@@ -1,1 +1,1 @@
-Script that takes a list of words as inputs and prints those that appear once
+count number of lines in bin
