@@ -1,1 +1,1 @@
-Script that prints hello user where user is current linux user
+Add /action to path
