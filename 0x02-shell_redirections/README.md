@@ -1,1 +1,1 @@
-ddisplay number of lines in the pattern root and three lines after /etc/passwd
+ddisplay number of lines in /etc/passwd that are not in the pattern root
