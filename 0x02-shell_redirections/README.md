@@ -1,1 +1,1 @@
-Reversing inputs
+Display users and their home directories
