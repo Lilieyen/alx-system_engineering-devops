@@ -1,1 +1,1 @@
-ddisplay number of lines in /etc/passwd that are not in the pattern root
+display number of lines in /etc/passwd that are not in the pattern bin
