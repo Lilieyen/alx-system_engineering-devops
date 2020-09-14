@@ -1,1 +1,1 @@
-Add /action to path
+Count number of directories in the PATH
