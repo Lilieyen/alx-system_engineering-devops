@@ -1,1 +1,1 @@
-input letter characters
+Remove c and C from all inputs
