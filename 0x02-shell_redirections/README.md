@@ -1,1 +1,1 @@
-Display users and their home directories
+Display lines containing pattern root in etc
