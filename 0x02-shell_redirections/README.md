@@ -1,1 +1,1 @@
-count number of lines in bin
+ddisplay number of lines in the pattern root and three lines after /etc/passwd
