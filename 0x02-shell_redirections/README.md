@@ -1,1 +1,1 @@
-Deleting all files ending with .js in cd
+Displaying 10 newest files
