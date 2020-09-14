@@ -1,1 +1,1 @@
-Script that prints value of addition with the value stored in the environment variable
+Script that prints result of POWER/DIVIDE
