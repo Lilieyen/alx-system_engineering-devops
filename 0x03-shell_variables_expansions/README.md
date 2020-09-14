@@ -1,1 +1,1 @@
-Script that prints result of POWER/DIVIDE
+Script that writes power (exponential)
