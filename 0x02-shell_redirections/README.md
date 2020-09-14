@@ -1,1 +1,1 @@
-Duplicate last line of file
+Deleting all files ending with .js in cd
