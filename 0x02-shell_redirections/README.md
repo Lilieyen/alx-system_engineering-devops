@@ -1,1 +1,1 @@
-Displaying the content of two files
+Script that writes a text
