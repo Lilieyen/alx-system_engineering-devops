@@ -1,1 +1,1 @@
-script that creates new global variable
+Script that prints value of addition with the value stored in the environment variable
