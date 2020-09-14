@@ -1,1 +1,1 @@
-Script that writes into a file (>>)
+Count number of directories and subdirectories in cd
