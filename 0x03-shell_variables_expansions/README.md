@@ -1,1 +1,1 @@
-Script that writes power (exponential)
+Script that changes base 2 to base 10
