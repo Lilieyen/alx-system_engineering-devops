@@ -1,1 +1,1 @@
-Displaying ten newest files
+Script that takes a list of words as inputs and prints those that appear once
