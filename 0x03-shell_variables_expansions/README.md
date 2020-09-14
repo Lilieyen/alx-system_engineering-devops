@@ -1,1 +1,1 @@
-Script that prints environment variables
+script that prints local and env variables and functions
