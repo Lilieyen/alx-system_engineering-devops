@@ -1,1 +1,1 @@
-display number of lines in /etc starting with letters
+input letters
