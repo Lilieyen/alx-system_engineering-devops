@@ -1,1 +1,1 @@
-Script that changes base 2 to base 10
+Script that prints a number with two decimal places
