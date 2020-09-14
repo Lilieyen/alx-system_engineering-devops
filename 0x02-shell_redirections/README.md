@@ -1,1 +1,1 @@
-display number of lines in /etc/passwd that are not in the pattern bin
+display number of lines in /etc starting with letters
