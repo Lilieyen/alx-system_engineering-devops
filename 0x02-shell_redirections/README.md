@@ -1,1 +1,1 @@
-Duplicate last line of file"
+Duplicate last line of file
