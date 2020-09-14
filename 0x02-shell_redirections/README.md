@@ -1,1 +1,1 @@
-Remove c and C from all inputs
+Reversing inputs
