@@ -1,1 +1,1 @@
-Script that writes a text
+Script that writes into a file (>>)
