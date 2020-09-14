@@ -1,1 +1,1 @@
-Displaying 10 newest files
+Displaying ten newest files
