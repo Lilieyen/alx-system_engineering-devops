@@ -1,1 +1,1 @@
-Displaying the third line
+Displaying the content of two files
