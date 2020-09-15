@@ -1,1 +1,1 @@
-Script that prints all possible combinations of two letters except oo
+Script that converts a number frombase 10 to base 16
