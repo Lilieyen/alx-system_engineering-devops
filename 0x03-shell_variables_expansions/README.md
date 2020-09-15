@@ -1,1 +1,1 @@
-Script that prints all possible combinations of two letters except oo
+Script that encodes and decodes using rot13 encryption
