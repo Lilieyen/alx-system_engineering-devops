@@ -1,1 +1,1 @@
-Script that encodes and decodes using rot13 encryption
+Script that prints every line from input starting with the first line
