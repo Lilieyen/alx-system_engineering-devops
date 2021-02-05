@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#display Hi after line 9
+
+COUNTER=0
+while [ $COUNTER -lt 20 ]
+do
+echo "$COUNTER"
+case $COUNTER in
+"3") echo "bad luck from China";;
+"8") echo "bad luck from Japan";;
+"16") echo "bad luck from Italy";;
+esac
+	(( COUNTER++ ))
+done
