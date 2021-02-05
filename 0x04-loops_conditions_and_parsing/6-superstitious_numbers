@@ -2,7 +2,7 @@
 #display Hi after line 9
 
 COUNTER=1
-while [ $COUNTER -lt 20 ]
+while [ $COUNTER -lt 21 ]
 do
 echo "$COUNTER"
 case $COUNTER in
