@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#display Hi after line 9
+
+COUNTER=0
+while [ $COUNTER -lt 10 ]
+do
+if [ $COUNTER  -eq 4 ];
+then
+	echo "bad luck";
+elif [ $COUNTER -eq 8 ];
+then
+	echo "good luck"
+	fi;
+	echo "Holberton School"
+	(( COUNTER++ ))
+done
