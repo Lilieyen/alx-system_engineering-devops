@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#reading from etc passwd
+
+cut -d: -f1 /etc/passwd | while IFS= read -r user
+do
+    echo "$user"
+    # do something with $user
+done
+
