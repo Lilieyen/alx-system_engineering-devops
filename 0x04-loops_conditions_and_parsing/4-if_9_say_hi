@@ -2,12 +2,12 @@
 #display Hi after line 9
 
 COUNTER=0
-while [ $COUNTER -lt 11 ]
+while [ $COUNTER -lt 10 ]
 do
-	echo "Holberton School"
 if [ $COUNTER  -eq 9 ];
 then
 	echo "Hi";
 	fi;
+	echo "Holberton School"
 	(( COUNTER++ ))
 done
