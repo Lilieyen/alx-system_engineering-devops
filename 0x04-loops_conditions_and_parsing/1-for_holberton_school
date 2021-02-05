@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 #printing Holberton School ten times
 
-for i in {1..10}
-do
-echo "Holberton School $i times"
-done
+n=10
+for (( c=1; c<=n; c++)) ; do echo "Holberton School" ; done
