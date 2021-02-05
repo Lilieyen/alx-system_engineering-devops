@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 #display Hi after line 9
 
-x=1
-while [ $x -le 11 ]
+COUNTER=0
+while [ $COUNTER -lt 10 ]
 do
-if [ $x != 10 ];
+	echo "Holberton School"
+if [ $COUNTER  -eq 9 ];
 then
-	exit
-	echo "Holberton School";
-
-else
 	echo "Hi";
 	fi;
+	(( COUNTER++ ))
 done
