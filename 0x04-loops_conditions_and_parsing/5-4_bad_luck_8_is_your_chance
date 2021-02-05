@@ -4,13 +4,14 @@
 COUNTER=0
 while [ $COUNTER -lt 10 ]
 do
-if [ $COUNTER  -eq 4 ];
+if [ $COUNTER  -eq 3 ];
 then
 	echo "bad luck";
 elif [ $COUNTER -eq 8 ];
 then
 	echo "good luck"
-	fi;
+else
 	echo "Holberton School"
+fi;
 	(( COUNTER++ ))
 done
