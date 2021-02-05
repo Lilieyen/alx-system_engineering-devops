@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#printing hours and minutes
+
+hour=0
+minute=60
+while [ $hour -le 13 ];
+do
+if [ $minute -eq 60 ];
+then
+if [ $hour -le 12 ];
+then
+echo "Hour: $hour";
+fi;
+hour=$(( hour + 1));
+minute=1
+else
+echo "$minute";
+minute=$(( minute + 1));
+fi;
+done
