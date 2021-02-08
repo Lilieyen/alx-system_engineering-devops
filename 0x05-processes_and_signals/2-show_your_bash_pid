@@ -2,4 +2,4 @@
 #show my bash PID
 # shellcheck disable=SC2009
 
-echo $BASHPID
+ps -auxf | grep "bash"
