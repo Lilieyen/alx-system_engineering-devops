@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#killing a process
+#killing a process without using kill
 
-pkill -signal -P ppid
+SIGTERM "$(pgrep -f "4-to_infinity_and_beyond")"
