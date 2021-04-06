@@ -3,5 +3,5 @@
 exec { 'pkill':
 ensure   => 'stopped',
 command  => 'pkill -f killmenow',
-provider => 'shell'
+provider => 'shell',
 }
