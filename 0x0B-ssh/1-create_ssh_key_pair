@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#a Bash script that creates an RSA key pair
+
+NAME=${1: -holberton}
+
+SIZE=${2: -4096}
+
+PASSWORD=${3: -betty}
