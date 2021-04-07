@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#client configuration file
+Host *
+  Port 22
+  ServerAliveInterval 60
+  ForwardAgent yes
+  IdentityFile ~/.ssh/holberton
+  AddKeysToAgent yes
+  UseKeychain yes
