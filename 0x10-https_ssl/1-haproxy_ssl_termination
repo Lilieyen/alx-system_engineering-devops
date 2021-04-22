@@ -53,8 +53,8 @@ frontend www-https
         default_backend www-backend
 
 backend www-backend
-        balance roundrobin
         redirect scheme https if !{ ssl_fc }
+	balance roundrobin
         server 46-web-01 34.73.151.27:80 check
         server 46-web-02 34.75.187.116:80 check
 
