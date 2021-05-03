@@ -13,16 +13,11 @@ if __name__ == '__main__':
                         format(userId), verify=False).json()
     todo = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}".
                         format(userId), verify=False).json()
-    completed_tasks = []
-    for task in todo:
-        if task.get('completed') is True:
-            completed_tasks.append(task.get('title'))
-    print("Employee {} is done with tasks({}/{}):".
-          format(user.get('name'), len(completed_tasks), len(todo)))
-    print("\n".join("\t {}".format(task) for task in completed_tasks))
-
-input_variable = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
-
-with open("USER_ID.csv", "w" newline="") as csv file:
-    my_writer = csv.writer(csvfile, delimiter=" ")
-    my_writer.writerow(input_variable)
+    input_variable = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS",
+                      "TASK_TITLE"]
+    with open("{}.csv".format(userId), 'w', newline='') as csvfile:
+        my_writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+        for task in todo:
+            my_writer.writerow([int(userId), user.get('username'),
+                                task.get('completed'),
+                                task.get('title')])
