@@ -3,8 +3,8 @@
 extend your Python script to export data in the CSV format
 """
 
-import requests
 import csv
+import requests
 from sys import argv
 
 if __name__ == '__main__':
