@@ -2,7 +2,7 @@
 """getting data from an api
 """
 
-from flask import request
+import requests
 from sys import argv
 
 if __name__ == '__main__':
