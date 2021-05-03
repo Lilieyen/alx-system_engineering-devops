@@ -3,8 +3,8 @@
 export to json
 """
 
-import requests
 import json
+import requests
 from sys import argv
 
 if __name__ == '__main__':
@@ -15,6 +15,6 @@ if __name__ == '__main__':
                         format(userId), verify=False).json()
     with open("{}.json".format(userId), "w") as json_file:
         json.dump({userId: [{
-            "task": todo.get("title"),
-            "completed": todo.get("completed"),
+            "task": task.get("title"),
+            "completed": task.get("completed"),
             "username": user.get("username")} for task in todo]}, json_file)
