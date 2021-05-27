@@ -6,7 +6,7 @@ service { 'nginx stop':
 
 exec { 'fix nginx':
   command => "sed -i 's/15/2000/g' /etc/default/nginx",
-  path    => ['/usr/bin'],
+  path    => ['/bin'],
 }
 
 service { 'nginx':
